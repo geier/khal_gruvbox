@@ -1,7 +1,7 @@
 # Gruvbox khal color scheme
 
 This is a [gruvbox](https://github.com/morhetz/gruvbox) color scheme for
-[khal](https://github.com).
+[khal](https://github.com/pimutils/khal/).
 
 **This is work in progress and highly experimental preview and anything can
 change at anytime** and only publicated as a preview for people helping in the
