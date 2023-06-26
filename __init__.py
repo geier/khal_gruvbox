@@ -42,17 +42,17 @@ faded_orange   = '#af3a03'
 gruvbox = [
     ('header', '', '', '', fg1, bg2),
     ('footer', '', '', '', fg1, bg2),
-    ('line header', 'black', 'white', 'bold'),
+    ('line header', 'black', 'white', 'bold', '', ''),
     ('alt header', 'white', '', 'bold'),
     ('bright', 'dark blue', 'white', ('bold', 'standout')),
     ('list', '', ''),
     ('list focused', 'white', 'light blue', 'bold'),
-    ('edit', '', ''),
-    ('edit focused', '', '', ''),
+    ('edit', '', '', '', fg1, bg2),
+    ('edit focus', '', '', '', fg1, bg3),
     ('button', '', '', '', bg1, neutral_blue),
     ('button focused', 'white', 'light blue', 'bold'),
 
-    ('reveal focus', 'black', 'light gray'),
+    ('reveal focus', '', '', 'bold', fg0, bg1),
     ('today focus', 'white', 'dark magenta'),
     ('today', 'dark gray', 'dark green',),
 
@@ -64,7 +64,6 @@ gruvbox = [
     ('monthname', '', '', '', fg1 +',bold', bg0),
     ('weeknumber_right', '', '', '', fg4, bg0),
     ('weeknumber_left', '', ''),
-    ('edit', '', '', '', ),
     ('alert', '', ''),
     ('mark', '', '', '', fg0, faded_aqua),
     ('frame', '', '', '', fg4, bg0),
@@ -76,12 +75,14 @@ gruvbox = [
     ('eventcolumn focus', '', '', '', fg0, bg0),
     ('calendar', '', '', '', fg1, bg0),
     ('calendar focus', '', '', '', fg1, bg0),
+    ('editor', '', '', '', fg1, bg0),
+    ('editor focus', '', '', '', fg1, bg0),
 
     ('editbx', 'light gray', 'dark blue'),
     ('editcp', 'black', 'light gray', 'standout'),
     ('popupbg', 'white', 'black', 'bold'),
     ('popupper', 'white', 'dark cyan'),
-    ('caption', 'white', '', 'bold'),
+    ('caption', '', '', 'bold', fg1 + ',bold', bg0),
 ]
 
 register_color_theme('gruvbox', gruvbox)
