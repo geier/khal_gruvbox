@@ -22,3 +22,4 @@ settings in your khal config file:
 [view]
 theme = gruvbox
 ```
+<img width="868" alt="image" src="https://github.com/geier/khal_gruvbox/assets/275330/60ba54c9-2bff-4ba7-8630-c144f2705898">
