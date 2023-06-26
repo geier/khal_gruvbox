@@ -56,26 +56,26 @@ gruvbox = [
     ('today focus', 'white', 'dark magenta'),
     ('today', 'dark gray', 'dark green',),
 
-    ('date header', '', '', '', fg4, bg1),
+    ('date header', '', '', '', fg1, bg1),
     ('date header focused', '', '', '', fg0, bg4),
     ('date header selected', '', '', '', fg2, bg2),
 
-    ('dayname', '', '', '', fg1 + ',bold', bg1),
-    ('monthname', '', '', '', fg1 +',bold', bg1),
-    ('weeknumber_right', '', '', '', fg4, bg1),
+    ('dayname', '', '', '', fg1 + ',bold', bg0),
+    ('monthname', '', '', '', fg1 +',bold', bg0),
+    ('weeknumber_right', '', '', '', fg4, bg0),
     ('weeknumber_left', '', ''),
     ('edit', '', '', '', ),
     ('alert', '', ''),
-    ('mark', '', '', '', fg2, faded_aqua),
-    ('frame', '', '', '', faded_orange, bg1),
-    ('frame focus', '', '', '', faded_green, bg1),
-    ('frame focus color', '', '', '', faded_red, bg1),
-    ('frame focus top', '', '', '', fg2, bg1),
+    ('mark', '', '', '', fg0, faded_aqua),
+    ('frame', '', '', '', fg4, bg0),
+    ('frame focus', '', '', '', faded_green, bg0),
+    ('frame focus color', '', '', '', faded_red, bg0),
+    ('frame focus top', '', '', '', fg2, bg0),
 
-    ('eventcolumn', '', '', '', faded_green, faded_blue),
-    ('eventcolumn focus', '', '', '', faded_green, faded_blue),
-    ('calendar', '', '', '', fg1, bg1),
-    ('calendar focus', '', '', '', fg1, bg1),
+    ('eventcolumn', '', '', '', fg0, bg0),
+    ('eventcolumn focus', '', '', '', fg0, bg0),
+    ('calendar', '', '', '', fg1, bg0),
+    ('calendar focus', '', '', '', fg1, bg0),
 
     ('editbx', 'light gray', 'dark blue'),
     ('editcp', 'black', 'light gray', 'standout'),
@@ -85,6 +85,3 @@ gruvbox = [
 ]
 
 register_color_theme('gruvbox', gruvbox)
-
-
-
