@@ -11,7 +11,7 @@ development process.
 **Note: I will force push into this repository until this notice is removed**
 
 This will only work if you are currently running the
-[config_based_theming branch](https://github.com/pimutils/khal/pull/1279) (which
+[plugin_color_themes branch](https://github.com/pimutils/khal/pull/1303) (which
 also supports plugins for color themes).
 
 Clone this repo to `$XDG_DATA_HOME/khal/plugins/` (which probably is
