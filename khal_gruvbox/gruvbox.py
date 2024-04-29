@@ -1,5 +1,3 @@
-from khal.api import register_color_theme
-
 bg0 = dark0       = '#282828'
 bg1 = dark1       = '#3c3836'
 bg2 = dark2       = '#504945'
@@ -84,5 +82,3 @@ gruvbox = [
     ('popupper', 'white', 'dark cyan'),
     ('caption', '', '', 'bold', fg1 + ',bold', bg0),
 ]
-
-register_color_theme('gruvbox', gruvbox)
