@@ -1,26 +1,22 @@
 # Gruvbox khal color scheme
 
 This is a [gruvbox](https://github.com/morhetz/gruvbox) color scheme for
-[khal](https://github.com/pimutils/khal/).
+[khal](https://github.com/pimutils/khal/) which makes use of the new
+[plugin system](https://github.com/pimutils/khal/pull/1303).
+At the moment of this writing (2024-04-29), the plugin system has not made it
+into the latest release of khal, so you will have to install from khal's master
+branch.
 
-**This is work in progress and highly experimental preview and anything can
-change at anytime** and only publicated as a preview for people helping in the
-development process.
+## Installation
 
-
-**Note: I will force push into this repository until this notice is removed**
-
-This will only work if you are currently running the
-[develop/plugins branch](https://github.com/pimutils/khal/pull/1313).
-
-
-Install the python project in this repository, e.g. 
+Install the python project in this repository, e.g.
 
 ```bash
 pip install git+https://github.com/geier/khal_gruvbox@importlib
 ```
 
-Make use of this plugin by adding the following to your config file:
+and add the following to your khal configuration file (usually `~/.config/khal/khal.conf`):
+
 ```
 [view]
 theme = gruvbox
